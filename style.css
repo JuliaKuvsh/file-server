@@ -43,3 +43,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.link {
+	border:1px solid #ccc; 
+	background:#de4c8a; 
+	padding: 10px 10px;
+	text-decoration: none;
+    color:white;
+}
+
+.links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
