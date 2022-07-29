@@ -18,7 +18,7 @@ if (!file_exists($searchFile) && $fileChecked) {
     echo json_encode(['status'=>'ok', 'msg'=>$idFile]);
 } elseif ($fileChecked == false) {
     echo json_encode(['status'=>'error', 'msg'=>'Invalid file extension']);
-} else {
+} elseif (file_exists($searchFile)) {
     echo json_encode(['status'=>'error', 'msg'=>'File already exists']);
 }
 
