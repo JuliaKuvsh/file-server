@@ -9,9 +9,8 @@
 </head>
 <body>
     <h1>Загрузите своё фото</h1>
-    <form method="post" action="upload.php" enctype="multipart/form-data">
-      <p></p>
-      <input class="file-drop" type="file" name="upload_file" id="file-drop" title="Файл не выбран" required><br>
+    <form method="post" action="uploader.php" enctype="multipart/form-data">
+      <input class="file-drop" type="file" name="upload_file" id="file-drop" required><br>
       <input class="button" type="submit" value="Отправить">
     </form>
     <div class='message-div message-div_hidden' id='message-div'></div>
